@@ -1,0 +1,11 @@
+10
+Luca;1
+Marco;10
+Donatello;10
+Socrate;8
+Enea;7
+Ignazio;3
+Patroclo;4
+Er Brasiliano;2
+Mimir;5
+Steve;6

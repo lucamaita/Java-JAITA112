@@ -1,0 +1,41 @@
+8
+Minecraft
+PC
+3
+999999
+true
+Fortnite
+PC
+7
+100000
+false
+Overwatch
+PC
+7
+50000
+true
+God Of War
+PS5
+18
+25000
+false
+The Last Of Us
+PS5
+18
+20000
+false
+Bioshock
+XBOX
+18
+5000
+true
+Forza Horizon
+XBOX
+3
+15000
+false
+GTA 5
+PS5
+18
+150000
+false

@@ -1,0 +1,12 @@
+
+	Scrivere un programma che letti dei numeri da un file poi stampi:
+	- numero maggiore
+	- media totale
+	- media dei multipli di 5
+	- il numero minore tra i multipli di 3
+	- modificare tutti i numeri multipli di 7 in 10
+	- cancellare tutti i numeri compresi tra 10 e 25
+	
+	BONUS
+	- ordinare in modo crescente i numeri letti da file
+	

@@ -1,0 +1,20 @@
+Scrivo qui perche dentro a file.txt ci saranno dati utili al funzionamento del programma.
+Se dovessi scrivere dentro a File.txt questi commenti rischierei di rompere il programma.
+I file dei dati legati a programmi solitamente si dividono in due categorie:
+	- Neofiti che imparano: sono i file con il formato piu facile in assoluto da leggere, questo perche le 
+							informazioni sono incolonnate, andando a capo per ogni diversa informazione.
+							Sara il caso del file.txt di questo progetto.
+	- File CSV: Significa Comma Separated Value (cioe valori separati dalla virgola).
+				Questo nome deriva dal fatto che quando esportiamo i dati di una tabella Excel quei dati
+				sono in automatico separati dal sibolo , (virgola)
+				Nella realta la virgola puo essere sostituito da qualunque carattere a vostra scelta, 
+				l`importante e che una volta scelto il carattere di separazione rimaniate coerenti con
+				il loro utilizzo.
+				Sono file un po piu complessi da analizzare, sopratutto perche solitamente gestiscono 
+				dati piu articolati
+				Li vedremo con calma nei prossimi giorni di lezione
+
+Indipendentemente dal tipo di file che vogliamo usare, ci sono delle regole che sono trasversali:
+	- NON mettere spazi prima o dopo le informazioni (soprattutto se si tratta di numeri)
+	- NON lasciare mai righe vuote
+	- Se scegliete di scrivere i dati in un ordine poi dovete mantenere quell'ordine

@@ -1,0 +1,11 @@
+tram,1,5,30,50,True,False
+metro,1,8,40,60,False,True
+autobus,3,20,40,True,True
+tram,2,6,35,45,False,True
+metro,2,10,50,70,True,False
+autobus,5,25,45,False,False
+tram,3,4,25,30,True,False
+metro,3,12,60,80,False,True
+autobus,7,30,50,False,True
+metro,4,9,45,65,True,False
+metro,5,11,55,75,False,True

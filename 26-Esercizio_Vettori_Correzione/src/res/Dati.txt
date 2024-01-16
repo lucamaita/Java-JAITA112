@@ -1,0 +1,4 @@
+3
+Mario Kart,Nintendo,7,4,s
+Fifa23,Playstation 5,18,2,n
+Bho,Playstation 5,18,1,s

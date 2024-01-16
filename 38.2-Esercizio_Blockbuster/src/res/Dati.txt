@@ -1,0 +1,20 @@
+Film;Titanic;195;James Cameron;true
+Film;Forrest Gump;142;Robert Zemeckis;true
+Film;The Shawshank Redemption;142;Frank Darabont;false
+Film;The Godfather;175;Francis Ford Coppola;true
+Film;Pulp Fiction;154;Quentin Tarantino;true
+Film;The Dark Knight;152;Christopher Nolan;true
+Film;The Matrix;136;The Wachowskis;false
+Film;Schindler's List;195;Steven Spielberg;true
+Film;Inception;148;Christopher Nolan;true
+Film;Fight Club;120;David Fincher;false
+Serie TV;Breaking Bad;48;5;13;true
+Serie TV;Stranger Things;50;4;8;false
+Serie TV;The Office;22;9;25;true
+Serie TV;Game of Thrones;55;8;10;true
+Serie TV;Friends;22;10;24;true
+Serie TV;Black Mirror;60;6;3;true
+Serie TV;The Mandalorian;30;2;8;false
+Serie TV;The Simpsons;22;33;22;false
+Serie TV;Westworld;60;3;10;false
+Serie TV;The Crown;55;4;10;true

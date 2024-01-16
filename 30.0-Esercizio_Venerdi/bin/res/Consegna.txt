@@ -1,0 +1,24 @@
+Dato un file di serie Tv formattato nel seguente modo:
+        NumeroSerieTvNelFile
+        titoloSerie,genere,numeroStagioni,numeroDipuntateMedieAStagione
+
+Leggere il file e salvare le informazioni sfruttando i vettori.
+Creare poi un menù che mi consenta, a ripetizione, di usare i comandi:
+- Lista delle serie Tv coi loro dettagli
+- Nome della serie con maggior numero di stagioni
+- Nome della serie con maggior numero di puntate a stagione
+- Nome della serie con il minore numero di stagioni
+- Nome della serie con il minore numero di puntate a stagione
+- Numero medio di stagioni tra tutte le serie del file
+- Permettere all'utente di cercare il nome di una serie in particolare e stampare i suoi dettagli. 
+  	Se la serie non esiste nel file farlo sapere all'utente.
+- Permettere all'utente di cercare un genere a sua scelta e stampare una lista coi nomi delle serie 
+  	che corrispondono alla ricerca.
+  	Se non esistono corrispondenze farlo sapere all'utente
+- Indicare per ogni genere quante serie sono presenti
+- I titolo che hanno un numero totale di episodi minori alla media
+- Legenda menù
+- Fine programma
+
+Consiglio:
+    Per fare il menù sfruttate lo switch, ogni case avrà dei comandi specifici da eseguire.

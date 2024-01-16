@@ -1,0 +1,5 @@
+1) Screittura dei dati (decidere con che forma prenderemo il dato e che formattazione conviene di piu)
+2) Si scrivono le classi modello : Significa sceivere le proprieta e i metodi necessari
+3) Sccrivere il codice per leggere i dati del file e salvarli
+4) Calcolo dei risultati
+5) Preparare i messaggi per l'utente

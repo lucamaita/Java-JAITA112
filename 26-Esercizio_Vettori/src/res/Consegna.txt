@@ -1,0 +1,18 @@
+Scrivere un file che sia formattato nel seguente modo:
+nomeVideogioco (testo)
+piattaforma (testo)
+limite eta (int)
+numeroGiocatori (int)
+primaPersona (boolean)
+
+Leggere i dati del file e salvarli negli appositi vettori
+Scrivere un menu che permetta di:
+
+	- Vedere tutte le schede dei videogiochi
+	- vedere tutti i titoli sopra un limiteETA a scelta dell'utente
+	- Vedere quanti videoGiochi ci sono in prima persona e quanti no 
+	- Vedere il numero medio di giocatori per una piattaforma a scelta dell'utente
+
+	BONUS
+	- vedere il numero di giocatori medio per ogni piattaforma disponibile
+	- Vedere il numero totale di giochi per ogni limite di eta

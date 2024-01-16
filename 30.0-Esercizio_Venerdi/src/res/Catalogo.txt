@@ -1,0 +1,13 @@
+12
+Game of Thrones;Action;8;9
+Breaking Bad;Crime;5;12
+Loki;Adventure;2;6
+Stranger Things;Fiction;4;8
+Dark;Fiction;3;9
+Mr.Robot;Thriller;4;11
+Better Call Saul;Crime;6;10
+Narcos;Crime;3;10
+Dhamer;Crime;1;10
+Peaky Blinders;Crime;6;6
+Arcane;Adventure;1;9
+The Queen's Gambit;Thriller;1;7

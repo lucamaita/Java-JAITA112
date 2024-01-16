@@ -1,0 +1,11 @@
+
+// Scrivere un programma che gestisca una concessionaria di auto e moto.
+// I dati che avrete a disposizione saranno formattati nel seguente modo:
+// a,marca,modello,colore,ariacondizionata,cerchiinlega,capienzaserbatoio,chilometriallitro
+// m,marca,modello,colore,capienzaserbatoio,chilometriallitro,passeggero,bauletti
+// Scrivere le classi, leggere i dati e poi rispondere alle domande:
+// -Elenco delle auto
+// -Elenco delle moto
+// -Veicoli con maggiore autonomia
+// -veicoli che data una distanza e il numero di passeggeri, possono portarti a destinazione
+// -veicoli di una marca cercata

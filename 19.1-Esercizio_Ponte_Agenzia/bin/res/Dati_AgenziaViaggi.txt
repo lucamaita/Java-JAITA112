@@ -1,0 +1,25 @@
+Dublino
+Aereo
+15
+80.50
+15
+Dubai
+Traghetto
+5
+10
+3
+dublino
+Aereo
+7
+55
+9
+Maiorca
+Automobile
+10
+45
+12
+Casa Mia
+Auto
+365
+2.10
+1

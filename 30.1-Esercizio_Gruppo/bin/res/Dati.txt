@@ -1,0 +1,11 @@
+10
+Climatizzatore,52,420.0,22,staffa-deumidificatore,bianco-nero
+Lavello,96,59.60,19,rubinetto-asciugamani,grigio-ceramica-rosso
+Albero di natale,137,50,10,palline-luci-stella,verde-bianco
+Motosega,63,79.90,18,batteria-occhiali protettivi-catena di ricambio,nera
+Trapano,4,35,22,Punte,giallo-blu-marrone
+Cassetta degli attrezzi,69,23.50,17,chiodi-martello-viti-pinza-chiave inglese,bianco-verde-giallo
+Idropulitrice,0,90.0,23,-, 
+Stufa,3,289.0,22,pellet,arancione-azzurro
+Tavolo Giardino,45,90.50,22,sedie-tovaglia,nero-grigio-verdone
+Tenda da campeggio,38,15,21,-,verde

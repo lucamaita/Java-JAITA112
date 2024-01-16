@@ -1,0 +1,6 @@
+a,Toyota,Yaris,Blu,S,S,45,18
+a,Honda,Civic,Rosso,N,S,50,16
+m,Yamaha,MT-07,Nero,15,25,2,S
+m,Ducati,Monster,Rosso,18,20,2,N
+a,Ford,Fiesta,Grigio,S,S,40,20
+m,Suzuki,GSX-R1000,Bianco,16,18,1,N

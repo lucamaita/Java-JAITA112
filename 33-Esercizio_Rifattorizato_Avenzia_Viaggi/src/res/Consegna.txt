@@ -1,0 +1,29 @@
+Creare un programma che gestisca un agenzia viaggi.
+Formattare un file con le seguenti informazioni:
+    destinazione,mezzo di trasporto,giorni di vacanza,costo giornaliero,numero persone.
+
+Creare un programma che acquisite le informazioni dal file sia in grado di 
+creare un vettore di oggetti di tipo Viaggio.
+Scrivere il costruttore e i metodi
+scheda()
+prezzo() : REGOLE
+          Calcolo del prezzo:
+Prezzo base 100;
+se la destinazione è Dubai o Tokyo aggiungo 200, se è Dublino o Londra aggiungo 150,
+                    se è New York o Miami aggiungo 300. In tutti gli altri casi aggiungo 50
+se il mezzo di trasporto è aereo o traghetto aggiungo 500, se è treno aggiungo 200,
+                    e è automobile o autobus aggiungo 100. In tutti gli altri casi aggiungo 1000
+se le persone sono più di 5 scontare il viaggio del 5%, se invece sono più di 10 scontare il
+                    viaggio del 10%.
+
+Stampare in console tramite un menù:
+-Scheda di ogni viaggio disponibile nel file
+-Lista destinazioni(senza ripetizioni)
+-Lista mezzi di trasporto(senza ripetizioni)
+-Costo medio dei viaggi in aereo
+-Costo medio dei viaggi a Dubai
+-Viaggi più economici(Viaggio/i che costano meno tra tutti quelli nel file)
+-Viaggi di lusso(Viaggio/i che costano di più tra tutti quelli del file)
+-Numero di viaggi per ogni destinazione presente nel file
+-I viaggi che costano meno della media generale
+-Permettete all'utente di cercare dei viaggi in base a una destinazione e a un mezzo a scelta
