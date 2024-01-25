@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.File;
 
-public class Scuola {
+// IMPLEMENTS indica con quale interfaccia la classe fa un contratto
+public class Scuola implements IScuola {
 
 	private ArrayList<Entity> persone;
 	
@@ -63,6 +64,10 @@ public class Scuola {
 			ris[i] = Double.parseDouble(vettore[i]);
 		
 		return ris;
+	}
+	
+	public ArrayList<Entity> getPersone() {
+		return persone;
 	}
 	
 	public String elenco() {
