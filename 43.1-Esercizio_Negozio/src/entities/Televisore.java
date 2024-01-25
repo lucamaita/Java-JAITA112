@@ -8,8 +8,8 @@ public class Televisore extends Articolo {
 	private boolean smartTv;
 	
 	// Costruttore
-	public Televisore(String marca, int annoProduzione, double pollici, String modello, boolean smartTv) {
-		super(marca, annoProduzione);
+	public Televisore(int id, String marca, int annoProduzione, double pollici, String modello, boolean smartTv) {
+		super(id, marca, annoProduzione);
 		setPollici(pollici);
 		setModello(modello);
 		setSmartTv(smartTv);
@@ -38,9 +38,11 @@ public class Televisore extends Articolo {
 	// Metodi
 	@Override
 	public String toString() {
-		return 	"\nPollici: " + pollici + 
+		return 	super.toString()		+
+				"\nPollici: " + pollici + 
 				"\nModello: " + modello + 
-				"\nSmartTv: " + smartTv;
+				"\nSmartTv: " 			+ (smartTv ? "Si" : "No") +
+				"\n----------------------------------------------";
 	}
 
 	@Override

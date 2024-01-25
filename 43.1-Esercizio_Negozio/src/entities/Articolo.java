@@ -2,15 +2,15 @@ package entities;
 
 import java.time.Year;
 
-public abstract class Articolo {
+public abstract class Articolo extends Entity{
 	
 	// Proprieta
 	private String marca;
 	private int annoProduzione;
 
 	// Costruttore
-	public Articolo(String marca, int annoProduzione) {
-		super();
+	public Articolo(int id, String marca, int annoProduzione) {
+		super(id);
 		setMarca(marca);
 		setAnnoProduzione(annoProduzione);
 	}
@@ -32,8 +32,9 @@ public abstract class Articolo {
 	// Metodi
 	@Override
 	public String toString() {
-		return 	"\nMarca: " 			+ marca 		+ 
-				"\nAnnoProduzione: " 	+ annoProduzione;
+		return 	super.toString()		+
+				"\nMarca: " 			+ marca 		+ 
+				"\nAnno di Produzione: " 	+ annoProduzione;
 	}
 
 	public int eta() {

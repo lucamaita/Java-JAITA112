@@ -10,8 +10,8 @@ public class Pc extends Articolo {
 	private String tipoHd;
 	
 	// Costruttore
-	public Pc(String marca, int annoProduzione, String modello, int ram, String cpu, int hd, String tipoHd) {
-		super(marca, annoProduzione);
+	public Pc(int id, String marca, int annoProduzione, String modello, int ram, String cpu, int hd, String tipoHd) {
+		super(id, marca, annoProduzione);
 		setModello(modello);
 		setRam(ram);
 		setCpu(cpu);
@@ -54,11 +54,13 @@ public class Pc extends Articolo {
 	// Metodi
 	@Override
 	public String toString() {
-		return 	"\nModello: " + modello + 
-				"\nRam: " + ram + 
-				"\nCpu: " + cpu + 
-				"\nHd: " + hd + 
-				"\nTipoHd: " + tipoHd;
+		return 	super.toString()			+	
+				"\nModello: " 	+ modello 	+ 
+				"\nRam: " 		+ ram 		+ "GB" +
+				"\nCpu: " 		+ cpu 		+ 
+				"\nHD: " 		+ hd 		+ "GB" + 
+				"\nTipo HD: " 	+ tipoHd	+
+				"\n----------------------------------------------";
 	}
 
 	public double prezzo() {

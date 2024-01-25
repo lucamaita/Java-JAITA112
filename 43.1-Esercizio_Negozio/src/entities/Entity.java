@@ -22,7 +22,7 @@ public abstract class Entity {
 	// Metodi
 	@Override
 	public String toString() {
-		return "id: " + id;
+		return "\nID: " + id;
 	}
 
 }
