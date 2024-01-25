@@ -1,0 +1,20 @@
+p,1,Dell,2019,fisso,8,Intel i5,512,SSD
+p,2,HP,2020,portatile,16,Intel i7,1024,HDD
+p,3,Lenovo,2018,portatile,12,Intel i3,256,SSD
+p,4,Asus,2021,fisso,32,Intel i9,2048,SSD
+p,5,Acer,2020,portatile,8,AMD Ryzen 5,512,SSD
+p,6,Apple,2021,portatile,16,Apple M1,512,SSD
+p,7,Microsoft,2019,portatile,16,Intel i7,1024,SSD
+p,8,Samsung,2020,fisso,32,AMD Ryzen 7,1024,HDD
+p,9,Lenovo,2021,fisso,16,AMD Ryzen 5,512,SSD
+p,10,HP,2018,portatile,8,Intel i5,256,SSD
+t,11,Samsung,2020,QLED,55,true
+t,12,LG,2019,OLED,55,true
+t,13,Sony,2021,OLED,55,true
+t,14,Panasonic,2018,LED,55,false
+t,15,Samsung,2021,QLED,65,true
+t,16,LG,2020,OLED,65,true
+t,17,Sony,2019,OLED,65,true
+t,18,TCL,2021,LED,65,true
+t,19,Hisense,2020,QLED,65,false
+t,20,Vizio,2018,LED,65,false
