@@ -1,0 +1,25 @@
+1,Il Signore degli Anelli,Avventura,201
+2,Inception,Thriller,148
+3,La La Land,Romantico,128
+4,Forrest Gump,Commedia,142
+5,Interstellar,Avventura,169
+6,Harry Potter e la Pietra Filosofale,Avventura,152
+7,Il Padrino,Crimine,278
+8,Titanic,Romantico,195
+9,Il Gladiatore,Azione,155
+10,Pulp Fiction,Thriller,154
+11,La Vita è Bella,Commedia,116
+12,Il Re Leone,Animazione,88
+13,Matrix,Azione,136
+14,Il Cigno Nero,Drammatico,108
+15,L'Ultimo Samurai,Azione,154
+16,Fight Club,Thriller,139
+17,La Passione di Cristo,Drammatico,126
+18,Inception,Thriller,148
+19,Lo Hobbit: Un Viaggio Inaspettato,Avventura,169
+20,Jurassic Park,Avventura,128
+21,Lord of War,Azione,122
+22,Il Pianista,Storico,150
+23,La Bella e la Bestia,Fantasia,129
+24,Forrest Gump,Commedia,142
+25,Braveheart,Azione,177
