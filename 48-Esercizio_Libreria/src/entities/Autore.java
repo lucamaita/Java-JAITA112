@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Map;
 
-import factory.IFactory;
+import factory.*;
 
 public class Autore extends Entity implements IFactory{
 	
@@ -14,6 +14,9 @@ public class Autore extends Entity implements IFactory{
 	private String biografia;
 	
 	// Costruttore
+	public Autore() {
+		// TODO Auto-generated constructor stub
+	}
 	public Autore(int id, String nome, String cognome, String dob, String nazionalita, String biografia) {
 		super(id);
 		setNome(nome);
@@ -23,10 +26,6 @@ public class Autore extends Entity implements IFactory{
 		setBiografia(biografia);
 	}
 	
-
-	public Autore() {
-		// TODO Auto-generated constructor stub
-	}
 
 	// Getters & Setters
 	public String getNome() {
@@ -59,7 +58,6 @@ public class Autore extends Entity implements IFactory{
 	public void setBiografia(String biografia) {
 		this.biografia = biografia;
 	}
-
 	
 	// Metodi
 	@Override
@@ -73,6 +71,7 @@ public class Autore extends Entity implements IFactory{
 				"\n----------------------------";
 	}
 	
+	@Override
 	public void create(Map<String,String> map)
 	{
 		setId(Integer.parseInt(map.get("id")));
@@ -82,7 +81,4 @@ public class Autore extends Entity implements IFactory{
 		setNazionalita(map.get("nazionalita"));
 		setBiografia(map.get("biografia"));
 	}
-
-
-	
 }

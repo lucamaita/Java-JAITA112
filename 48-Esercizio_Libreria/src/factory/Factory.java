@@ -3,8 +3,8 @@ package factory;
 import entities.Autore;
 import entities.Libro;
 
-public class Factory
-{
+public class Factory {
+	
 	public static IFactory createObject(String classe)
 	{
 		switch(classe)

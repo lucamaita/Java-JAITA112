@@ -1,29 +1,30 @@
 package entities;
 
-public abstract class Entity {
-	
-	// Proprieta
+public class Entity {
+
+	// PROPRIETA
 	private int id;
-
-	// Costruttore
-	public Entity(int id) {
-		setId(id);
-	}
+	
+	// COSTRUTTORE
 	public Entity() {}
+	
+	public Entity(int id) {
+		super();
+		this.id = id;
+	}
+	
 
-	// Getters and Setters
+	// GETTERS AND SETTERS
 	public int getId() {
 		return id;
 	}
-
 	public void setId(int id) {
 		this.id = id;
 	}
 
-	// Metodi
+	// METODI
 	@Override
 	public String toString() {
 		return "\n\tID: " + id;
 	}
-	
 }

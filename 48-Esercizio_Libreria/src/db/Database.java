@@ -32,6 +32,7 @@ public class Database implements IDatabase
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			c = DriverManager.getConnection(path,user,password);
+			System.out.println("Connection Open");
 		}
 		catch(Exception e)
 		{
@@ -45,6 +46,7 @@ public class Database implements IDatabase
 		try
 		{
 			c.close();
+			System.out.println("Connection Closed");
 		} 
 		catch (SQLException e)
 		{

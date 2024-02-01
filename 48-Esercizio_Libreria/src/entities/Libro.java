@@ -4,7 +4,7 @@ import java.util.Map;
 
 import factory.IFactory;
 
-public class Libro extends Entity implements IFactory{
+public class Libro extends Entity implements IFactory {
 
 	// Proprieta
 	private String titolo;
@@ -15,6 +15,10 @@ public class Libro extends Entity implements IFactory{
 	private Autore autore;
 	
 	// Costruttore
+	public Libro() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Libro(int id, String titolo, String genere, int numero_pagine, String casa_editrice, Double prezzo,
 			Autore autore) {
 		super(id);
@@ -26,22 +30,7 @@ public class Libro extends Entity implements IFactory{
 		setAutore(autore);
 	}
 
-	public Libro() {
-	
-	}
 
-	public Libro(int id, String titolo2, String genere2, int numero_pagine2, String casa_editrice2, double prezzo2,
-			int idAutore) {
-		super(id);
-		setTitolo(titolo);
-		setGenere(genere);
-		setNumero_pagine(numero_pagine);
-		setCasa_editrice(casa_editrice);
-		setPrezzo(prezzo);
-		setAutore(autore);
-	}
-
-	// Getters & Setters
 	public String getTitolo() {
 		return titolo;
 	}
@@ -78,24 +67,24 @@ public class Libro extends Entity implements IFactory{
 	public void setAutore(Autore autore) {
 		this.autore = autore;
 	}
-
 	
-	// Metodi
+	// METODI
 	@Override
 	public String toString() {
-		return 	super.toString()		+
-				"\nTitolo: " + titolo + 
-				"\nGenere: " + genere + 
+		return 	super.toString()	+
+				"\nTitolo: " 		+ titolo + 
+				"\nGenere: " 		+ genere + 
 				"\nNumero_pagine: " + numero_pagine + 
 				"\nCasa_editrice: " + casa_editrice + 
-				"\nPrezzo: " + prezzo + 
-				"\nAutore: " + autore.getNome() + " " + autore.getCognome() +
+				"\nPrezzo: " 		+ prezzo + 
+				"\nAutore: " 		+ autore.getNome() + " " + autore.getCognome() +" id: " + autore.getId() +
 				"\n---------------------------------";
 	}
-	
+
+	@Override
 	public void create(Map<String,String> map)
 	{
-		setId(Integer.parseInt(map.get("id")));
+		setId(Integer.parseInt(map.get("castoro")));
 		setTitolo(map.get("titolo"));
 		setGenere(map.get("genere"));
 		setNumero_pagine(Integer.parseInt(map.get("numero_pagine")));
@@ -105,7 +94,7 @@ public class Libro extends Entity implements IFactory{
 		Autore a = new Autore();
 		a.setNome(map.get("nome"));
 		a.setCognome(map.get("cognome"));
+		a.setId(Integer.parseInt(map.get("id")));
 		setAutore(a);
 	}
-
 }

@@ -10,26 +10,26 @@ import java.util.Map;
 import db.Database;
 import db.IDatabase;
 
-public class DAO implements IDAO {
-
-	// Proprieta
+public class DAO implements IDAO{
+	
+	// SINGLETON
 	private static IDatabase instance = null;
 	private IDatabase db;
 	
-	// METODI
-	
 	private static IDatabase getInstance(String nomeDB) {
 		if (instance == null)
-			instance = new Database(nomeDB);
+			instance = new Database("libreria");
 		return instance;
 	}
 	
-	public DAO(String nomeDB)
-	{
+	// COSTRUTTORE
+	public DAO(String nomeDB) {
+		
 		db = getInstance(nomeDB);
 	}
 	
-	// UPDATE
+	// METODI
+	
 	public boolean update(String query)
 	{
 		try
