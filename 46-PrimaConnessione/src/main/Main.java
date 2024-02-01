@@ -18,5 +18,7 @@ public class Main
 		
 		Entity e = new Persona(0, "Giulio", "Cesare", "1945-09-04", "Roma", "M", "Imperatore");
 		System.out.println("\n\tINSERT: " + DAOPersona.getInstance().create(e));
+		
 	}//Fine Metodo main
+	
 }//Fine Classe
